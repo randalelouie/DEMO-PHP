@@ -6,7 +6,37 @@
     <title>Document</title>
 </head>
 <body>
-    
-    
+    <?php
+    $week = "sundayy";
+    switch($week){
+        case "monday";
+            echo "Weekdays";
+            break;
+        case "tuesday";
+            echo "Weekdays";
+            break;
+        case "wednesday";
+            echo "Weekdays";
+            break;
+        case "thursday";
+            echo "Weekdays";
+            break;
+         case "friday";
+            echo "Weekdays";
+            break;
+        case "saturday";
+            echo "Weekends";
+            break;
+        case "sunday";
+            echo "Weekends";
+            break;
+        default;
+            echo "Not Valid Date";
+            break;
+       
+    }
+     
+    ?>
+   
 </body>
 </html>
